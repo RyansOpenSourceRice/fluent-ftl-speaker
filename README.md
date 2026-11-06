@@ -1,4 +1,4 @@
-# fluent-translation-in-ada
+# fluent-ftl-speaker
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](LICENSE)
 [![SPARK](https://img.shields.io/badge/SPARK-Silver-blueviolet?style=flat-square)](prove_fluent.gpr)
@@ -73,5 +73,11 @@ alr -n build
 gnatprove -P prove_fluent.gpr --mode=silver --level=2 --checks-as-errors=on --warnings=continue
 gprbuild -P tests/tests.gpr && ./bin/test_m0 && ./bin/test_m1a
 ```
+
+## Notice
+
+This project is independently developed and is not affiliated with, endorsed by, or sponsored by AdaCore, Fluent/Mozilla, or the W3C. Ada and SPARK are trademarks of their respective owners, used descriptively to indicate the implementation language only.
+
+## License
 
 License: Apache-2.0.
